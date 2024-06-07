@@ -15,20 +15,32 @@ const config: Config = {
       },
       width: {
         '360': '360px',
+        '1152':'1152px',
       },
       height:{
         '400':'400px',
       },
       fontSize: {
         '24':'24px',
-        '16':'16px'
+        '16':'16px',
+        '40':'40px',
       },
       boxShadow: {
         'event': '0px 6px 5px -1px rgba(0,0,0,0.59)',
       },
       colors: {
-        'link': '#305F81',
+        'blue': '#305F81',
+        'white':'#FFFFFF',
+        'event-bg-gray':'#F9F9F9'
       },
+      gap: {
+        '36': '36px',
+      },
+      spacing: {
+        '54': '54px',
+        '36':'26px',
+        '30':'30px',
+      }
     },
   },
   plugins: [],
